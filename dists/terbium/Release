@@ -1,0 +1,19 @@
+Origin: enterthevoid-x86.github.io/galliumos-kernel/
+Label: enterthevoid-x86.github.io/galliumos-kernel/
+Codename: terbium
+Date: Thu, 24 Aug 2023 16:11:14 UTC
+Architectures: amd64
+Components: main
+Description: GalliumOS kernels
+MD5Sum:
+ a6e83c0b83997cda49bcfcfde8b61d72 2008 main/binary-amd64/Packages
+ 3a7f554eab4de7bf735d74d4b79abca1 828 main/binary-amd64/Packages.gz
+ 2b4790fbaee7ee742f4dc9fe758d4a6a 172 main/binary-amd64/Release
+SHA1:
+ ee95da57756861a7626f6e286bd13abe2fbedc90 2008 main/binary-amd64/Packages
+ 96aa29127429d4a45bb053a81a1da91c36b6f5a2 828 main/binary-amd64/Packages.gz
+ ee57edfb894d25491e09ab6704449b13d7991a81 172 main/binary-amd64/Release
+SHA256:
+ b5db070c2ebe95e837d7da839e1eadba5193a5a7661230230cd4b35fa2f3ef7f 2008 main/binary-amd64/Packages
+ d5b14cc07be669c9dfed2831c40ddbfb64d3a3a1d076a40a68af210aaf0faa90 828 main/binary-amd64/Packages.gz
+ d6b14a7d2cedcdd66e0a1636f95cc035b05d04925b64373f63a4982ed0938774 172 main/binary-amd64/Release

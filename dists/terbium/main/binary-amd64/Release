@@ -1,0 +1,5 @@
+Component: main
+Origin: enterthevoid-x86.github.io/galliumos-kernel/
+Label: enterthevoid-x86.github.io/galliumos-kernel/
+Architecture: amd64
+Description: GalliumOS kernels

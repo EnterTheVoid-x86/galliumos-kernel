@@ -1,0 +1,7 @@
+Origin: enterthevoid-x86.github.io/galliumos-kernel/
+Label: enterthevoid-x86.github.io/galliumos-kernel/
+Codename: terbium
+Architectures: amd64
+Components: main
+Description: GalliumOS kernels
+SignWith: default
