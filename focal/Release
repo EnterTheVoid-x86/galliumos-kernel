@@ -1,0 +1,75 @@
+Package: linux-headers-5.10.1+
+Source: linux-5.10.1+
+Version: 5.10.1+-1
+Architecture: amd64
+Maintainer: archimax <archimax@inspiron>
+Installed-Size: 51213
+Filename: ./linux-headers-5.10.1+_5.10.1+-1_amd64.deb
+Size: 8218900
+MD5sum: 34826790943f47889273c4a74d28cc96
+SHA1: 45314e3df52334f8b711e28c4a0061059899104c
+SHA256: 5befe400819711609a385abfb2d379bf58c66f0700f83893be6cefe3a63d2f23
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel headers for 5.10.1+ on amd64
+ This package provides kernel header files for 5.10.1+ on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-5.10.1+
+Source: linux-5.10.1+
+Version: 5.10.1+-1
+Architecture: amd64
+Maintainer: archimax <archimax@inspiron>
+Installed-Size: 344770
+Filename: ./linux-image-5.10.1+_5.10.1+-1_amd64.deb
+Size: 73279352
+MD5sum: 6ff3f749cc1135a2201956e0d3803832
+SHA1: af68c69fdbb9517f58f3bbe9fb4881c9ca944a8c
+SHA256: 587634a1735f1a5c97ccdcb7e56ee4b5e310a5f86a8b022f50daf6d315bca69b
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel, version 5.10.1+
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.10.1+.
+
+Package: linux-image-5.10.1+-dbg
+Source: linux-5.10.1+
+Version: 5.10.1+-1
+Architecture: amd64
+Maintainer: archimax <archimax@inspiron>
+Installed-Size: 8160881
+Filename: ./linux-image-5.10.1+-dbg_5.10.1+-1_amd64.deb
+Size: 1119299052
+MD5sum: 1a912cafcfaec820c7b9e0c7f02a663b
+SHA1: 91f9d948072173ccb6b4ac162640ea77b6c816fa
+SHA256: 6ad13a4d6bd240d65b7d321889fc13ba7197f17f30c01b1d9979fb163d89f74e
+Section: debug
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel debugging symbols for 5.10.1+
+ This package will come in handy if you need to debug the kernel. It provides
+ all the necessary debug symbols for the kernel and its modules.
+
+Package: linux-libc-dev
+Source: linux-5.10.1+
+Version: 5.10.1+-1
+Architecture: amd64
+Maintainer: archimax <archimax@inspiron>
+Installed-Size: 5895
+Provides: linux-kernel-headers
+Filename: ./linux-libc-dev_5.10.1+-1_amd64.deb
+Size: 1134436
+MD5sum: 9da73e7a9bc311d2a89f77f6a008bfd7
+SHA1: fc74034a73a350ebec6b4dd42e144ef88b4adac2
+SHA256: fc32055910393489865ff3cf6c165b5961f320b915cd294c43f6389d6996cc8f
+Section: devel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+
